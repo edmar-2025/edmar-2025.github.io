@@ -19,7 +19,8 @@ function logOut(){
         
         sessionStorage.removeItem('loggedIn');
         alert("Logged out successfully");
-        window.location.href = "logIn.html";
+        window.location.href = "index.html";
     }
 }
+
 
